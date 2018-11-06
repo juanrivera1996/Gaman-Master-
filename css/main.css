@@ -1,0 +1,229 @@
+.phoneload{
+	background-image:url("../images/gif_carga.gif");
+    background-color: #7adbde;
+}
+
+.phonemenu{
+	background-image:url("../images/animacion.gif");
+}
+
+.phonelevelgame1{
+	background-image:url("../images/fondo_estrellas_gemelas.png");
+}
+
+.phonegame1{
+	background-image:url("../images/fondo_color.png");
+}
+
+.phonegame2{
+	background-image:url("../images/fondo_color.png");
+}
+
+.phonecredit{
+	background-image:url("../images/fondo_color.png");
+}
+
+.phonewin{
+	/*background-image:url("../images/gano.png");*/
+}
+
+.imgleft {
+	display:block;
+	float:left;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.imgright {
+	display:inline-block;
+	float:right;
+	margin-top: 50px;
+	margin-right: 50px;
+    margin-left: calc(100vw - 280px);
+}
+
+.imgbtn1{
+	position:absolute;
+	bottom: 754px;
+	left: 120px;
+}
+
+.imgbtn2{
+	position:absolute;
+	bottom: 554px;
+	left: 120px;
+}
+
+.imgbtn3{
+	position:absolute;
+	bottom: 354px;
+	left: 120px;
+}
+
+.imgbtnlvl1intro{
+	position:absolute;
+	bottom: 1100px;
+	left: 230px;
+}
+
+.imgbtnlvl1{
+	position:absolute;
+	bottom: 800px;
+	left: 230px;
+}
+
+.imgbtnlvl2{
+	position:absolute;
+	bottom: 600px;
+	left: 230px;
+}
+
+.imgbtnlvl3{
+	position:absolute;
+	bottom: 400px;
+	left: 230px;
+}
+
+
+.justify{
+	text-align:justify;
+}
+
+.center{
+	text-align: center;
+}
+
+.field{
+	font-family: Courier New, Courier, Mono;
+	resize: horizontal;
+    width: 930px;
+	outline: 0px;
+	font-size: 106px;
+	margin:0px 0px 12px 15px;
+	background-color: transparent; 
+	border-radius: 30px;
+	padding: 3px 0px 0px 24px;
+	letter-spacing: 0.66em;
+	color: white;
+	text-transform: uppercase;
+}
+
+#num1{
+	margin: 130px 15px 15px 15px;
+}
+
+#hint{
+	color: white;
+	font-size: 100px;
+	text-align:center;
+	margin:60px 50px 15px 50px;
+}
+
+section {
+	max-width: 100%;
+	max-height: 100%;
+	display: none;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-attachment: fixed;
+	text-align:center;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	font-family:'Aileron';
+	font-weight: normal;
+	font-size: 80px;
+	margin:500px 40px 15px 40px;
+}
+
+h2 {
+	font-family:'Aileron';
+	font-weight: normal;
+	font-size: 70px;
+	margin:15px 40px 15px 40px;
+}
+
+p {
+	font-family: 'Densia Sans';
+	font-size: 48px;
+	text-align:justify;
+	margin:40px 120px 40px 120px;
+}
+.box{
+    /*background-image: url(../images/retironivel1.png);*/
+    height: 514px;
+    width: 515.5px;
+    display: inline-block;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .5s;
+}
+
+.box:active{
+    transform: scale(0.97);
+    transition: transform .2s;
+}
+
+.box.flip {
+    transform-origin: center;
+  transform: rotateY(180deg);
+}
+.front-face{
+  
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 0px;
+    top: 14%;
+    left: -0.1%;
+    border-radius: 5px;
+}
+.back-face {
+    width: 100%;
+    height: 100%;
+    bottom: -14%;
+    right: -1%;
+    padding: 0px;
+    position: absolute;
+    border-radius: 5px;
+    backface-visibility: hidden;
+    
+
+
+}
+.front-face {
+  transform: rotateY(180deg);
+}
+#contenedor-menu{
+    display: block;
+    width: fit-content;
+}
+#contenedor-memoria{
+    display: block;
+    perspective: 1000px;
+}
+#box1{
+    margin-top: 384px;
+}
+#box2{
+    margin-top: 384px;
+}
+@font-face {
+  font-family: Aileron;
+  font-style: normal;
+  font-weight: 100;
+  src: local('Aileron'), url(Ailerons-Typeface.otf); }
+
+@font-face {
+  font-family: Densia Sans;
+  font-style: normal;
+  font-weight: 100;
+  src: local('Densia Sans'), url(DensiaSans.otf) }
+  

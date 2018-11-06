@@ -1,0 +1,17 @@
+section{
+
+}
+.box{
+    background-image: url(../images/retironivel1.png);
+    height: 514px;
+    width: 515.5px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+#box1{
+    /*margin-top: 384px;*/
+}
+#box2{
+    /*margin-top: 384px;*/
+}
